@@ -25,7 +25,7 @@ export default function Footer() {
         </a>
 
         <a href={settings.instagram} target="_blank" rel="noreferrer">
-          Instagram ↗
+          Instagram <span className="external-arrow" aria-hidden="true">↗</span>
         </a>
       </div>
 
