@@ -85,7 +85,7 @@ function Storefront() {
                 <div className="page empty-state">
                   <h1>Page not found</h1>
                   <Link to="/" className="text-link">
-                    Return to beebo ng ↗
+                    Return to beebo ng  
                   </Link>
                 </div>
               }

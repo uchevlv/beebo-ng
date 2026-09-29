@@ -37,7 +37,7 @@ export default function Hero() {
           <em>worn by all.</em>
         </h1>
         <a href="#collections" className="text-link">
-          Explore collections <span aria-hidden="true">↗</span>
+          Explore collections <span aria-hidden="true"> </span>
         </a>
       </div>
     </section>

@@ -26,7 +26,7 @@ export default function ProductCard({ product, collection }) {
           target="_blank"
           rel="noreferrer"
         >
-          Order on WhatsApp <span aria-hidden="true">↗</span>
+          Order on WhatsApp <span aria-hidden="true"> </span>
         </a>
       ) : (
         <>

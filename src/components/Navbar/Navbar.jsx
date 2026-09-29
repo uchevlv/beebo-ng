@@ -60,7 +60,7 @@ export default function Navbar() {
           aria-label="Main navigation"
         >
           <Link to="/#collections" onClick={() => setOpen(false)}>
-            Explore <span aria-hidden="true">↗</span>
+            Explore <span aria-hidden="true"> </span>
           </Link>
         </nav>
       )}

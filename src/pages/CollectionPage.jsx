@@ -9,7 +9,7 @@ export default function CollectionPage({ collections, products }) {
       <section className="page empty-state">
         <h1>Collection not found</h1>
         <Link className="text-link" to="/#collections">
-          Explore the collections ↗
+          Explore the collections  
         </Link>
       </section>
     );
@@ -59,7 +59,7 @@ export default function CollectionPage({ collections, products }) {
             shortly.
           </p>
           <a className="text-link" href="/#contact">
-            Enquire about {collection.name} ↗
+            Enquire about {collection.name}  
           </a>
         </div>
       )}

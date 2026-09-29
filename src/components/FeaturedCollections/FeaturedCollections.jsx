@@ -61,7 +61,7 @@ export default function FeaturedCollections({ collections, products }) {
                   className="text-link"
                   to={"/collections/" + collection.slug}
                 >
-                  Explore <span aria-hidden="true">↗</span>
+                  Explore <span aria-hidden="true"> </span>
                 </Link>
                 <span className="collection-index" aria-hidden="true">
                   0{index + 1}

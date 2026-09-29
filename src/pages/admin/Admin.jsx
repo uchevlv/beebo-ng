@@ -17,7 +17,7 @@ export default function Admin() {
         </Link>
         <span className="eyebrow">The studio</span>
         <Link to="/" className="text-link">
-          View website ↗
+          View website  
         </Link>
       </header>
       <main id="main-content" tabIndex="-1">
@@ -31,7 +31,7 @@ export default function Admin() {
               sign-in.
             </p>
             <Link to="/" className="text-link">
-              Return to website ↗
+              Return to website  
             </Link>
           </div>
         ) : auth.loading ? (
@@ -255,7 +255,7 @@ function Dashboard({ catalog }) {
           price. Your changes appear on the website as soon as you save.
         </p>
         <Link className="text-link" to="/admin/products">
-          Manage your dresses ↗
+          Manage your dresses  
         </Link>
       </div>
     </>
